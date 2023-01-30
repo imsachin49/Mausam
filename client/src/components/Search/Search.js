@@ -16,7 +16,7 @@ const Search = () => {
     const fetchDetails = async () => {
         try{
           setLoading(true);
-          const res = await fetch(`http://localhost:5000/api/weather?city=${mycity}`,{  
+          const res = await fetch(`https://mausam-weather-app-five.vercel.app/api/weather?city=${mycity}`,{  
             method:'GET'
           });
           //to set the loading to true

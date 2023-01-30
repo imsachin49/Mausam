@@ -35,7 +35,7 @@ const Card = () => {
         console.log("this is the page...");
         console.log(page);
         setLoading(true);
-        const res = await fetch(`http://localhost:5000/api/weather//top30/paginated?page=${page}&limit=10`,{  
+        const res = await fetch(`https://mausam-weather-app-five.vercel.app/api/weather/top30/paginated?page=${page}&limit=10`,{  
           method:'GET'
         });
         //to set the loading to true

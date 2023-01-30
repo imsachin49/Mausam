@@ -34,7 +34,7 @@ const Maps = () => {
     try{
       console.log("this is the page...");
       console.log(page);
-      const res = await fetch(`http://localhost:5000/api/weather//top30/paginated?page=${page}&limit=10`,{  
+      const res = await fetch(`https://mausam-weather-app-five.vercel.app/api/weather/top30/paginated?page=${page}&limit=10`,{  
         method:'GET'
       });
       const data=await res.json();
