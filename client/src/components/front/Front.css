@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'courgette', cursive; 
+    font-family: sans-serif;
+}
+
+.front{
+    background:linear-gradient(90deg, #3881b3, #545e69);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:url('https://imgs.search.brave.com/_Pa2Qr2brUbnB_NVVBxa92qsnLCmyKXsBuDStvN_hLI/rs:fit:1200:938:1/g:ce/aHR0cHM6Ly8zLmJw/LmJsb2dzcG90LmNv/bS8tMktyTmRoRG5s/Z2svVlNRb0J0SEw1/SUkvQUFBQUFBQUFC/U28vRU5HRDZlNDh4/X2svczE2MDAvRnVs/bC1Nb29uLU5pZ2h0/K2FuZCtjbG91ZHMu/anBlZw');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+
+.cloud{
+    height: 300px;
+    width: 500px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.write{
+    width: 600px;
+    color: crimson;
+    text-shadow: 0 0 10px #fff;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* .container1 a{
+    position: relative;
+    width: 160px;
+    height: 60px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+    border-radius: 50px;
+    border-radius: 50px;
+}
+
+.container1 a:before,
+.container1 a:after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #f00;
+    transition: 0.5s;
+    border-radius: 50px;
+
+} */
+
+/* .container a:nth-child(1):before, */
+/* .container a:nth-child(1):after{ */
+    /* background:linear-gradient(45deg, #00ccff,#0e1538,#d400d4); */
+/* } */
+
+/* .container1 a:nth-child(1):before,
+.container1 a:nth-child(1):after{
+    background:linear-gradient(45deg, #ff075b,#0e1538,#d400d4,#1aff22);
+    border-radius: 50px;
+}
+
+.container1 a:hover:before{
+    inset: -3px;
+    border-radius: 50px;
+}
+
+.container1 a:hover:after{
+    inset: -3px;
+    filter: blur(10px); 
+    border-radius: 50px;
+
+}
+
+.container1 a span{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: #0e1538;
+    background: white;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff; 
+    color:#0e1538;
+    border: 1px solid #040a29;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.container1 a span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background:rgba(255, 255, 255, 0.075);
+    transform: skew(25deg);
+    border-radius: 50px;
+
+} */
+
+.nexts{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+/* CSS */
+.button-explore {
+  background:white;
+  color: #FF4742;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  padding: 15px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.button-explore:hover,
+.button-explore:active {
+  background-color: initial;
+  background-position: 0 0;
+  /* sexy whitesh; */
+  color:white;
+  border: 1px solid white;
+}
+
+.button-explore:active {
+  opacity: .5;
+}
+
+@media screen and (max-width: 670px){
+    .write{
+        font-size: 1.5em;
+        width: 300px;
+    }
+    .front{
+        justify-content:flex-start;
+        padding-top: 200px;
+    }
+}

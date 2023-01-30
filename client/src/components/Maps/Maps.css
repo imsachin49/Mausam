@@ -1,0 +1,99 @@
+.maps{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 20px;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:91%;
+    margin:50px;
+    border: 1px solid greenyellow;
+    height: 500px;
+}
+
+.leaflet-control-zoom-in span,.leaflet-control-zoom-out span{
+    color: #ff4568;
+}
+
+.pop{
+    font-size: 11px;
+    word-spacing: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mark{
+    background-color: red;
+}
+
+.bld{
+    font-weight: bolder;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pag{
+    margin-top: -40px;
+    padding: 15px;
+    margin-bottom: 100px;
+    color: black;
+    display: flex;
+    background: white;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 29px;
+}
+
+.pag ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+
+.pag ul li{
+    display: inline-block;
+    margin: 0 10px;
+    /* background: #ccc; */
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.pag button{
+    display: inline-flex;
+    align-items: center;
+    /* padding: 5px; */
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+}
+
+ul li.active{
+    color: #fff;
+    background-image: linear-gradient(#ff4568,#ff4568);
+    background-repeat: no-repeat;
+    /* background-color: aquamarine; */
+} 
+

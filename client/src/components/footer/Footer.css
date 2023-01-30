@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Courgette', cursive;
+    font-family: cursive;
+}

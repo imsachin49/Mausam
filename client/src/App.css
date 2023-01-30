@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+.App{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.1rem;
+    /* width: 100%; */
+    overflow-x: hidden;
+    /* min-height: 100vh; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background:cadetblue; */
+}
+
+body{
+    background:linear-gradient(90deg, #1581c9, #30455a);
+    
+}
+
